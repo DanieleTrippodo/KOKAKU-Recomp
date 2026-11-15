@@ -1,0 +1,13 @@
+KOKAKU Recomp / Native port by DDD
+https://ko-fi.com/X8X4FMCO5
+
+PSPRecomp framework: MIT; see PSPRecomp-MIT.txt.
+FFmpeg shared libraries: LGPL 2.1; see FFmpeg-LGPL-2.1.txt.
+FFmpeg project and source: https://ffmpeg.org/
+DirectX Shader Compiler: see the license files in dxc/.
+https://github.com/microsoft/DirectXShaderCompiler
+Departure Mono 1.500 by Helena Zhang: SIL Open Font License 1.1.
+https://github.com/rektdeckard/departure-mono
+The font is embedded in the setup utility; see DepartureMono-OFL.txt.
+
+Original game assets are not bundled with the setup utility.

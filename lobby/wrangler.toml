@@ -1,0 +1,13 @@
+name = "kokaku-lobby"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# One Durable Object keeps the room list. SQLite-backed classes are the kind
+# available on the Workers Free plan; the lobby itself stores nothing on disk.
+[[durable_objects.bindings]]
+name = "LOBBY"
+class_name = "Lobby"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Lobby"]

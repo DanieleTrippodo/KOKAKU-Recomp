@@ -1,0 +1,16 @@
+{
+  "name": "kokaku-lobby",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Room list and peer introduction service for KokakuNative online multiplayer",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "deploy": "wrangler deploy",
+    "test": "node test/lobby.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0",
+    "ws": "^8.18.0"
+  }
+}

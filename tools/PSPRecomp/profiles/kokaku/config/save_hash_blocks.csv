@@ -1,0 +1,3 @@
+# Computed branches inside the game's MD5 compressor; absent from auto CFG discovery.
+name,address,size
+kokaku_save_hash_rounds,08A5ACC0,000000B0

@@ -1,0 +1,52 @@
+# Game data and anything derived from the game: never published.
+*.iso
+*.ISO
+/extracted/
+/extracted_assets/
+/dump_frames/
+/tools/PSPRecomp/profiles/kokaku/generated/
+/tools/PSPRecomp/profiles/kokaku/generated_bridge/
+/tools/ppsspp-ref/
+/tools/test_gen/
+/*_report.json
+/*_report_*.csv
+SAVEDATA/
+*-savedata/
+mods/
+
+# Build output, bundled toolchains and third-party binaries.
+/dist/
+/tools/w64devkit/
+/tools/PSPRecomp/build/
+/tools/PSPRecomp/profiles/kokaku/third_party/
+/launcher/build/
+/lobby/node_modules/
+/lobby/.wrangler/
+__pycache__/
+*.pyc
+*.exe
+*.dll
+*.obj
+*.o
+
+# Diagnostics, logs and personal settings.
+/diagnostics/
+/scratch/
+/*.log
+/KokakuNative.ini
+*.runtime.log
+*.mutation-backup
+
+# Not published for now: the modloader and its tools.
+/MODLOADER.cmd
+/tools/PSPRecomp/profiles/kokaku/modloader/
+/tools/PSPRecomp/profiles/kokaku/host/kokaku_mod_*
+/tools/install_merade_mods.py
+/tools/export_*_blender.py
+/tools/capture_motoko_blender.py
+/tools/build_motoko_reference.py
+/tools/kokaku_model_assets.py
+
+# The other game profile of PSPRecomp stays in its own repository.
+/tools/PSPRecomp/profiles/vcs/
+/tools/PSPRecomp/.git/
